@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-cyber-bg text-cyber-text font-mono antialiased;
+  background-image:
+    radial-gradient(1200px 600px at 10% -20%, rgba(0, 232, 125, 0.08), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(0, 232, 125, 0.06), transparent 60%);
+}
+
+@layer components {
+  .cyber-card {
+    @apply bg-cyber-panel border border-cyber-border rounded-lg;
+  }
+  .cyber-btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md border border-neon-500/40 text-neon-300 hover:bg-neon-500/10 hover:border-neon-400 transition-colors font-semibold;
+  }
+  .cyber-btn-solid {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md bg-neon-500 text-black hover:bg-neon-400 transition-colors font-semibold shadow-neon;
+  }
+  .cyber-input {
+    @apply w-full bg-cyber-panel2 border border-cyber-border rounded-md px-3 py-2 text-cyber-text placeholder-cyber-muted focus:outline-none focus:border-neon-400 focus:ring-1 focus:ring-neon-400/40;
+  }
+  .cyber-label {
+    @apply block text-sm text-cyber-muted mb-1;
+  }
+  .cyber-badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded border border-neon-500/40 text-neon-300 text-xs;
+  }
+  .cyber-link {
+    @apply text-neon-300 hover:text-neon-200 underline underline-offset-4;
+  }
+  .cyber-sidebar-item {
+    @apply flex items-center gap-3 px-4 py-2 rounded-md text-cyber-text hover:bg-cyber-panel2 hover:text-neon-300 transition-colors;
+  }
+  .cyber-sidebar-item-active {
+    @apply bg-cyber-panel2 text-neon-300 border-l-2 border-neon-400;
+  }
+}
+
+::selection { background: rgba(0,232,125,0.3); color: #eafff5; }
