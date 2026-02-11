@@ -1,0 +1,36 @@
+{
+  "app": {
+    "name": "CyberTrain",
+    "tagline": "Antrenament cibernetic & competiție"
+  },
+  "nav": {
+    "home": "Acasă",
+    "dashboard": "Dashboard",
+    "exercises": "Exerciții",
+    "profile": "Profil",
+    "leaderboard": "Clasament",
+    "news": "Noutăți",
+    "contact": "Contact",
+    "clans": "Clanuri",
+    "achievements": "Realizări",
+    "admin": "Admin Panel",
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "logout": "Deconectare"
+  },
+  "common": {
+    "submit": "Trimite",
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "edit": "Editează",
+    "delete": "Șterge",
+    "create": "Creează",
+    "search": "Caută",
+    "loading": "Se încarcă...",
+    "empty": "Nu există date",
+    "back": "Înapoi",
+    "yes": "Da",
+    "no": "Nu",
+    "confirm": "Confirmă"
+  }
+}
