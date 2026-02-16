@@ -67,3 +67,4 @@ Sunt respectate directoarele și fișierele principale solicitate în `src`:
 - `_mock`, `assets`, `auth`, `axios`, `components`, `layouts`, `locales`, `pages`, `routes`, `sections`, `theme`, `types`, `utils`
 - `app.tsx`, `global-config.ts`, `global.css`, `main.tsx`, `vite-env.d.ts`
 # twebik
+# twebik
