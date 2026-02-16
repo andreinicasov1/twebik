@@ -1,5 +1,6 @@
 export * from './ContestDetailsPage';
 export * from './ContestsPage';
+export * from './Error2026Page';
 export * from './HomePage';
 export * from './LeaderboardPage';
 export * from './LoginPage';

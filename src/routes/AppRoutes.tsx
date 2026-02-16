@@ -10,6 +10,7 @@ import {
   AdminUsersPage,
   ContestDetailsPage,
   ContestsPage,
+  Error2026Page,
   HomePage,
   LeaderboardPage,
   LoginPage,
@@ -33,6 +34,7 @@ export function AppRoutes() {
         { path: '/concursuri', element: <ContestsPage /> },
         { path: '/concursuri/:contestId', element: <ContestDetailsPage /> },
         { path: '/clasament', element: <LeaderboardPage /> },
+        { path: '/eror-2026', element: <Error2026Page /> },
       ],
     },
     {
