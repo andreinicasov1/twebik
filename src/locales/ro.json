@@ -1,0 +1,45 @@
+{
+  "comun": {
+    "incarcare": "Se încarcă...",
+    "salvare": "Salvează",
+    "anulare": "Anulează",
+    "stergere": "Șterge",
+    "editare": "Editează",
+    "detalii": "Detalii"
+  },
+  "navigare": {
+    "acasa": "Acasă",
+    "concursuri": "Concursuri",
+    "clasament": "Clasament",
+    "profil": "Profil",
+    "panou": "Panou"
+  },
+  "auth": {
+    "titluAutentificare": "Autentificare în platformă",
+    "titluInregistrare": "Creare cont nou",
+    "email": "Email",
+    "parola": "Parolă",
+    "nume": "Nume complet",
+    "nickname": "Pseudonim",
+    "tara": "Țară",
+    "limbaj": "Limbaj preferat",
+    "butonAutentificare": "Intră în cont",
+    "butonInregistrare": "Creează cont",
+    "resetare": "Ai uitat parola?",
+    "eroareEmail": "Introduceți un email valid.",
+    "eroareParola": "Parola trebuie să aibă minim 8 caractere."
+  },
+  "landing": {
+    "heroTitlu": "Platformă de concursuri pentru programatori",
+    "heroText": "Participă la dueluri algoritmice, hackathoane și clasamente live într-un ecosistem premium.",
+    "ctaPrimar": "Intră în arenă",
+    "ctaSecundar": "Vezi concursurile"
+  },
+  "admin": {
+    "titlu": "Panou administrare",
+    "utilizatori": "Gestionare utilizatori",
+    "concursuri": "Gestionare concursuri",
+    "probleme": "Gestionare probleme",
+    "raportari": "Moderare raportări"
+  }
+}
