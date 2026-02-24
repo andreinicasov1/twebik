@@ -63,6 +63,7 @@ npm run build
 ## Structură proiect
 
 Sunt respectate directoarele și fișierele principale solicitate în `src`:
+bazar djekson
 
 - `_mock`, `assets`, `auth`, `axios`, `components`, `layouts`, `locales`, `pages`, `routes`, `sections`, `theme`, `types`, `utils`
 - `app.tsx`, `global-config.ts`, `global.css`, `main.tsx`, `vite-env.d.ts`
