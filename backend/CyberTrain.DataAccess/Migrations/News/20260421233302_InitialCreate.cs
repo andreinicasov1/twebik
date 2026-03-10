@@ -38,3 +38,4 @@ namespace CyberTrain.DataAccess.Migrations.News
         }
     }
 }
+
