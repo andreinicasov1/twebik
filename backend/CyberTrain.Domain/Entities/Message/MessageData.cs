@@ -32,3 +32,4 @@ namespace CyberTrain.Domain.Entities.Message
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }
+
